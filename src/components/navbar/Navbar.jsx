@@ -43,7 +43,7 @@ const Navbar = () => {
 			>
 				<img
 					className="h-12 lg:h-15"
-					src="../../public/images/Netflix_Logo_PMS.png"
+					src="//public/Netflix_Logo_PMS.png"
 					alt="logo"
 				/>
 				<div className="flex-row ml-8 gap-7 hidden lg:flex">
@@ -75,7 +75,7 @@ const Navbar = () => {
 						<FaRegBell />
 					</div>
 					<div className="w-6 h-6 lg:w-10 rounded-md overflow-hidden">
-						<img src="/public/images/blue.png" alt="" />
+						<img src="/blue.png" alt="" />
 					</div>
 				</div>
 			</div>

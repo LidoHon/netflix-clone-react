@@ -35,13 +35,14 @@ const Banner = () => {
 				<h1 className={styles.banner__title}>
 					{movie?.title || movie?.name || movie.original_name}
 				</h1>
+
+				<h1 className={styles.banner__description}>
+					{truncate(movie?.overview, 150)}
+				</h1>
 				<div className={styles.banner__buttons}>
 					<button className={styles.banner__button}>Play</button>
 					<button className={styles.banner__button}>My List</button>
 				</div>
-				<h1 className={styles.banner__description}>
-					{truncate(movie?.overview, 150)}
-				</h1>
 			</div>
 			<div className={styles.banner__fadeBottom} />
 		</header>
